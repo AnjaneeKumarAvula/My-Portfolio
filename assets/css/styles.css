@@ -470,6 +470,58 @@ img {
   background-position: center;
   background-repeat: no-repeat;
 }
+.resume-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    padding: 18px;
+    background: linear-gradient(135deg, #4070f4, #5a8dee);
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(64,112,244,0.3);
+    transition: 0.3s;
+}
+
+.resume-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(64,112,244,0.5);
+}
+
+.resume-icon {
+    font-size: 35px;
+    background: white;
+    color: #4070f4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.resume-content h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.resume-content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.resume-btn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 6px 14px;
+    background: white;
+    color: #4070f4;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background: #e6ecff;
+}
+
 
 @media screen and (max-width: 768px) {
   .home {
